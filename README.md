@@ -20,5 +20,5 @@ The time we greeted you.
 ## Example usage
 
 - name: Hello World by Ameydev
-  uses: ameydev/hello-world-github-action@v1.01
+  uses: ameydev/hello-world-github-action@v1.02
   language: 'Engish'
