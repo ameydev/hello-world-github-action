@@ -19,7 +19,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: ameydev/hello-world-docker-action@v1.01
-with:
-  who-to-greet: 'Amey'
+- name: Hello World by Ameydev
+  uses: ameydev/hello-world-github-action@v1.01
   language: 'Engish'

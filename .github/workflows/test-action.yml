@@ -5,11 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-    - name: Hello world action step
+    - name: Hello World by Ameydev
+      uses: ameydev/hello-world-github-action@v1.01
       id: hello
-      uses: ameydev/hello-world-docker-action@v1.01
-      with:
-        who-to-greet: 'Amey!'
     # Use the output from the `hello` 
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
