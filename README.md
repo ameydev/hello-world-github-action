@@ -9,7 +9,7 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ### `English`
 
-**Required** The Laguage of the person to greet. Default `"World"`.
+**Required** The Laguage of the person to greet. Default `"English"`.
 
 ## Outputs
 
