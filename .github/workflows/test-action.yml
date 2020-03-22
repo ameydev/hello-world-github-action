@@ -10,6 +10,6 @@ jobs:
       uses: ameydev/hello-world-docker-action@v1
       with:
         who-to-greet: 'Amey!'
-    # Use the output from the `hello` step
+    # Use the output from the `hello` 
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
