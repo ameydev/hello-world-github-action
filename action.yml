@@ -9,7 +9,7 @@ inputs:
   language:
     description: 'language of greet eg. English or Hindi'
     required: false
-    default: English
+    default: 'English'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
