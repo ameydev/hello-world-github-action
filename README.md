@@ -19,7 +19,7 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-docker-action@v1
+uses: ameydev/hello-world-docker-action@v1.01
 with:
   who-to-greet: 'Amey'
   language: 'Engish'
